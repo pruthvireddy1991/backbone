@@ -16,6 +16,7 @@ notifications:
 
 build:
   ci:
+    - npm install karma-chrome-launcher --save-dev
     - npm install
     - npm rebuild
     - npm test
