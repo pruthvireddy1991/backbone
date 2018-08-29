@@ -17,6 +17,7 @@ notifications:
 build:
   ci:
     - apt-get update && apt-get install chromium-browser
+    - npm install puppeteer
     - npm install karma-chrome-launcher --save-dev
     - npm install
     - npm rebuild
