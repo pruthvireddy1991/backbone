@@ -16,7 +16,7 @@ notifications:
 
 build:
   ci:
-    - apt-get install chromium-browser
+    - apt-get update && apt-get install chromium-browser
     - which chrome
     - npm install karma-chrome-launcher --save-dev
     - npm install
