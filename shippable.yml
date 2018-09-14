@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - 10.8
+  - 10.9
 
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
