@@ -2,8 +2,6 @@
 // For example:
 // npm install karma-firefox-launcher
 // karma start --browsers=Firefox
-const process = require('process');
-process.env.CHROMIUM_BIN = require('puppeteer').executablePath();
 module.exports = function(config) {
   config.set({
     basePath: '',
@@ -39,7 +37,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['ChromiumHeadless'],
+    browsers: ['Firefox'],
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
